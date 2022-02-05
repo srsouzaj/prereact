@@ -1,0 +1,24 @@
+{
+  "name": "prereact",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server -d 750 -w -p 3333 ./server.js"
+  },
+  "dependencies": {
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.15",
+    "@types/react": "17.0.39",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "json-server": "^0.17.0",
+    "typescript": "4.5.5"
+  }
+}
